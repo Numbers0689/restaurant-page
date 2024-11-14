@@ -1,6 +1,8 @@
 body {
     margin-top: 40px;
     font-family: "Rubik", sans-serif;
+    background-color: rgb(26, 26, 26);
+    color: white;
 }
 
 nav {
@@ -43,6 +45,7 @@ button {
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 400;
+    color: white;
 }
 
 button:hover {
@@ -54,6 +57,7 @@ button:hover {
     grid-template-columns: auto minmax(min-content, 500px);
     padding: 50px 300px 0px 300px;
     gap: 30px;
+    width: 900px;
 }
 
 form {
@@ -63,7 +67,7 @@ form {
 }
 
 input, textarea {
-    border: 2px gray solid;
+    border: 2px rgb(75, 75, 75) solid;
     background-color: transparent;
     border-radius: 3px;
     padding: 15px 15px;
